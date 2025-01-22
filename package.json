@@ -1,0 +1,22 @@
+{
+  "name": "webportifolio",
+  "version": "1.0.0",
+  "description": "Web Portifólio para apresentar-me",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cauaosp/webportifolio.git"
+  },
+  "author": "cauaosp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cauaosp/webportifolio/issues"
+  },
+  "homepage": "https://github.com/cauaosp/webportifolio#readme",
+  "dependencies": {
+    "inquirer": "^12.3.2"
+  }
+}
