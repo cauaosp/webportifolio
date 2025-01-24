@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --midnight-moss: #010e04;
+  --las-palmas: #d5ee15;
+  --ebb: #ebe2e0;
+  --lilac: #ddb1d1;
+  --honey-flower: #4d1a78;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,5 +22,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, Helvetica, Arial, sans-serif;
 }
