@@ -2,7 +2,7 @@ import { TopMenu } from "../components/shared/index";
 
 export default function HomePage() {
   return (
-    <div className="grid gap-4 h-screen bg-midnightMoss p-5 px-36">
+    <div className="grid gap-4 h-screen bg-midnight-moss p-5 px-36">
       <TopMenu />
       <div className="bg-green-100">
         <div>2</div>
