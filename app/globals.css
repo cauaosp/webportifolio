@@ -8,6 +8,16 @@
   --color-ebb: #ebe2e0;
   --color-lilac: #ddb1d1;
   --color-honey-flower: #4d1a78;
+  --color-green-primary: #fff;
+
+  --color-primary-green: "#ebe2e0";
+  --color-secondary-green: "#184D25";
+
+
+  --drop-shadow-neon-duck: 0 0 10px #39FF14;
+  --drop-shadow-neon-accordion: 0 0 5px #ebe2e055;
+  --drop-shadow-neon-south-america: 0 0 5px #ffffff55;
+  --drop-shadow-neon-cat: 0 0 10px #87B79288;
 }
 
 body {

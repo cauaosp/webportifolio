@@ -15,6 +15,12 @@ export default {
       xl: "1200px",
       "2xl": "1366px",
     },
+    extend: {
+      colors: {
+        arnaldo: "var(--color-ding)",
+        foreground: "var(--foreground)",
+      },
+    },
   },
   plugins: [],
 } satisfies Config;
