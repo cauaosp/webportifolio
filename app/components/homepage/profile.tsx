@@ -7,8 +7,8 @@ export const Profile = () => {
   return (
     <div className="row-span-3 grid  grid-rows-3 gap-1 py-3 w-64">
       <Image
-        src="/perfil.jpg"
-        alt="Profile"
+        src="/image/perfil.jpg"
+        alt="perfil"
         width={300}
         height={300}
         className="left-0 p-0.5 rounded-full 2xl:size-40 md:size-28 justify-self-center"
