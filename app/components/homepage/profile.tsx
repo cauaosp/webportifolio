@@ -1,11 +1,12 @@
 "use client";
 
-import { SouthAmerica } from "@/assets";
+import { Github, LinkedIn, SouthAmerica } from "@/assets";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Profile = () => {
   return (
-    <div className="row-span-3 grid  grid-rows-3 gap-1 py-3 w-64">
+    <div className="row-span-3 grid grid-rows-3 gap-1 py-3 w-64 max-h-96">
       <Image
         src="/image/perfil.jpg"
         alt="perfil"
@@ -19,21 +20,36 @@ export const Profile = () => {
         <SouthAmerica
           width={25}
           height={25}
-          color={"var(--color-green-primary)"}
+          color={"var(--color-background)"}
           className=" drop-shadow-neon-south-america w-fit"
         />
         <div>América do sul / Brasil</div>
       </div>
       <div className="h-fit items-start  flex -mt-10 text-white tracking-tight font-extralight gap-2 w-fit mx-auto 2xl:-mt-24 ">
-        <div className="border p-1 px-3 rounded-2xl bg-white/5 border-white/25 justify-self-center">
-          português
-        </div>
-        <div className="border p-1 px-3 rounded-2xl bg-white/5 border-white/25 justify-self-center">
-          inglês
-        </div>
-        <div className="border p-1 px-3 rounded-2xl bg-white/5 justify-self-center border-white/25">
-          espanhol
-        </div>
+        <Link
+          href="https://github.com/cauaosp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gray-900 text-white border border-gray-200/25 px-3 py-1 rounded-lg flex items-center gap-x-2 font-light"
+        >
+          <Github color={"#fff"} width={25} height={25} />
+          <div>GitHub</div>
+        </Link>
+
+        <Link
+          href="https://www.linkedin.com/in/cauaosp/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-600 text-white border border-blue-50/25 px-3 py-1 rounded-lg flex items-center gap-x-2 font-light"
+        >
+          <LinkedIn
+            color={"var(--color-blue-600)"}
+            background={"#fff"}
+            width={23}
+            height={23}
+          />
+          <div>LinkedIn</div>
+        </Link>
       </div>
     </div>
   );
