@@ -43,7 +43,7 @@ export default function About() {
                   <div>12/2021 - 06/2023</div>
                 </div>
                 <div className="text-md font-extralight text-justify">
-                  Trabalhei na Include Jr em 3 funções diferentes entre 2021 e
+                  Trabalhei como voluntário da EJ Include Jr entre 2021 e
                   2023. Como Desenvolvedor Front-End, desenvolvi páginas com
                   WordPress, criei design e protótipos. Já como Gerente de
                   Vendas, prospectei e negociei com novos clientes, criando
