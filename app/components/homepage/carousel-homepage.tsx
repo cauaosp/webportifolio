@@ -46,7 +46,7 @@ export function CarouselHomepage() {
       description:
         "Aqui estão algumas das minhas experiências profisisonais e tecnologias que já trabalhei.",
       list: [
-        "Gestão de projetos",
+        "Kubernets",
         "RabbitMq",
         "WordPress",
         ".Net Framework",
