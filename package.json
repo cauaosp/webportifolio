@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "portifolio",
   "version": "0.1.0",
   "private": true,
@@ -10,40 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
+    "@tailwindcss/postcss": "^4.0.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-autoplay": "^8.5.2",
+    "embla-carousel-react": "^8.5.2",
+    "lucide-react": "^0.474.0",
+    "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.6"
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
-=======
-  "name": "webportifolio",
-  "version": "1.0.0",
-  "description": "Web Portifólio para apresentar-me",
-  "main": "test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cauaosp/webportifolio.git"
-  },
-  "author": "cauaosp",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cauaosp/webportifolio/issues"
-  },
-  "homepage": "https://github.com/cauaosp/webportifolio#readme",
-  "dependencies": {
-    "inquirer": "^12.3.2"
->>>>>>> 7b71399f275bdec4161341c387645506304bf03f
+    "postcss": "^8",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5"
   }
 }
