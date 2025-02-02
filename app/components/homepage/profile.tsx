@@ -30,7 +30,7 @@ export const Profile = () => {
           href="https://github.com/cauaosp"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-900 text-white border border-gray-200/25 px-3 py-1 rounded-lg flex items-center gap-x-2 font-light"
+          className="bg-gray-900 text-white border border-white/25 px-3 py-1 rounded-lg flex items-center gap-x-2 font-light"
         >
           <Github color={"#fff"} width={25} height={25} />
           <div>GitHub</div>
@@ -40,7 +40,7 @@ export const Profile = () => {
           href="https://www.linkedin.com/in/cauaosp/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-600 text-white border border-blue-50/25 px-3 py-1 rounded-lg flex items-center gap-x-2 font-light"
+          className="bg-blue-600 text-white border border-white/25 px-3 py-1 rounded-lg flex items-center gap-x-2 font-light"
         >
           <LinkedIn
             color={"var(--color-blue-600)"}
