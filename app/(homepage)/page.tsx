@@ -10,7 +10,7 @@ export default function HomePage() {
         <Profile />
         <div className="col-span-2 text-white h-fit">
           <div className="tracking-tight font-bold text-5xl mb-4">
-            Desenvolvedor Full Stack
+            Desenvolvedor Full StackA
           </div>
           <div className="tracking-tighter text-xl font-extralight">
             Especializado em projetos de ponta a ponta, desde o banco de dados
