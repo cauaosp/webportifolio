@@ -7,7 +7,7 @@ export const Footer = () => {
       <Cat
         width={35}
         height={35}
-        color={"#87B792"}
+        color={"#34d399"}
         className=" drop-shadow-neon-cat w-fit"
       />
     </div>
