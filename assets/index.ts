@@ -3,6 +3,7 @@ export { Brazil } from "./brazil";
 export { Cat } from "./cat";
 export { Duck } from "./duck";
 export { EducationCap } from "./education-cap";
+export { FileDownload } from "./file-download";
 export { GitBranch } from "./git-branch";
 export { Github } from "./github";
 export { Home } from "./home";
