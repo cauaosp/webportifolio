@@ -63,7 +63,7 @@ export function CarouselHomepage() {
       title: "Linguagens",
       description:
         "Linguagens usadas para desenvolvimento no trabalho ou faculdade.",
-      list: ["C#", "TypeScript", "C", "C++", "Python", "Java"],
+      list: ["C#", "TypeScript", "JavaScript", "C", "C++", "Python", "Java"],
       dot: <Tags width={12} height={12} color={"var(--color-background)"} />,
     },
   ];
@@ -79,10 +79,10 @@ export function CarouselHomepage() {
       <CarouselContent className="px-1">
         {slides.map((slide, index) => (
           <CarouselItem key={index}>
-            <Card className="h-56 w-full border-white/25 bg-white/5 text-white p-2 justify-between flex overflow-auto text-xs">
+            <Card className="h-56 2xl:h-64 w-full border-white/25 bg-white/5 text-white p-2 justify-between flex overflow-auto text-xs 2xl:text-sm">
               <CardContent className="flex gap-y-3 flex-col max-h-64 w-full">
-                <CardTitle className="text-xl mb-1.5">{slide.title}</CardTitle>
-                <CardDescription className="">{slide.description}</CardDescription>
+                <CardTitle className="text-xl mb-1.5 2xl:text-2xl">{slide.title}</CardTitle>
+                <CardDescription className="2xl:text-base">{slide.description}</CardDescription>
                 <ul className="grid grid-cols-2 mt-1.5">
                   {slide.list.map((item, i) => (
                     <li key={i} className="flex py-0.5 gap-x-2 items-center">

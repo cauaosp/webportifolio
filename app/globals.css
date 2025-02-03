@@ -17,7 +17,8 @@
   --drop-shadow-neon-duck: 0 0 10px #39ff14;
   --drop-shadow-neon-accordion: 0 0 5px #ebe2e055;
   --drop-shadow-neon-south-america: 0 0 5px #ffffff55;
-  --drop-shadow-neon-cat: 0 0 10px #87b79288;
+  --drop-shadow-neon-cat: 0 0 15px #34d399;
+  --drop-shadow-neon-emerald: 0 0 3px #34d399;
 }
 
 body {
@@ -89,4 +90,10 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@plugin 'tailwind-scrollbar' {
+  nocompatible: true;
+  preferredStrategy: 'pseudoelements';
+  
 }
