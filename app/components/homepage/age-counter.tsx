@@ -40,8 +40,6 @@ export const AgeCounter = () => {
       const seconds = Math.floor(remainingAfterMinutes / 1000);
 
       setAge({ years, months, days, hours, minutes, seconds });
-
-      console.log(age);
     }, 1000);
 
     return () => clearInterval(interval);
@@ -49,7 +47,8 @@ export const AgeCounter = () => {
 
   return (
     <span className="text-emerald-400 font-mono">
-      {age.years} anos, {age.months} meses, {age.days} dias, {age.hours} horas, {age.minutes} minutos e {age.seconds} segundos
+      {age.years} anos, {age.months} meses, {age.days} dias, {age.hours} horas,{" "}
+      {age.minutes} minutos e {age.seconds} segundos
     </span>
   );
 };
