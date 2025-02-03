@@ -1,15 +1,17 @@
-import { AgeCounter, CarouselHomepage, Profile } from "../components/homepage";
-import { PortifolioDownload } from "../components/homepage/portifolio-download";
+import {
+  AgeCounter,
+  CarouselHomepage,
+  PortifolioDownload,
+  Profile,
+} from "../components/homepage";
 import { Footer } from "../components/shared/footer";
 import { TopMenu } from "../components/shared/index";
 
 export default function HomePage() {
   return (
     <div className="grid gap-2 md:gap-6 h-screen bg-gray-950 p-5 pb-1 px-36 select-none">
-      <div>
-        <TopMenu />
-        <PortifolioDownload />
-      </div>
+      <TopMenu />
+      <PortifolioDownload />
 
       <div className="grid grid-rows-3 grid-cols-3 p-5 2xl:pt-10 gap-4 gap-y-0 md:gap-y-20 2xl:gap-y-0 overflow-hidden 2xl:mt-8 2xl:mb-0">
         <Profile />
