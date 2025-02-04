@@ -1,12 +1,13 @@
 "use client";
 
 import { Github, LinkedIn, SouthAmerica } from "@/assets";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
-export const Profile = () => {
+export const Profile = ({...props}) => {
   return (
-    <div className="row-span-3 grid grid-rows-3 gap-1 py-3 w-64 max-h-96 2xl:max-h-[32rem] ">
+    <div className={cn("row-span-3 grid grid-rows-3 gap-1 py-3 w-64 h-96 2xl:h-[32rem]", props.className)}>
       <Image
         src="/image/perfil.jpg"
         alt="perfil"
@@ -26,7 +27,7 @@ export const Profile = () => {
         <div>América do sul / Brasil</div>
       </div>
 
-      <div className="h-fit items-start  flex -mt-10 2xl:-mt-15 text-white tracking-tight font-extralight gap-2 w-fit mx-auto  ">
+      <div className="h-fit items-start  flex -mt-10 2xl:-mt-15 text-white tracking-tight font-extralight gap-2 w-fit mx-auto">
         <Link
           href="https://github.com/cauaosp"
           target="_blank"
