@@ -74,7 +74,7 @@ export function CarouselHomepage() {
         align: "start",
         loop: true,
       }}
-      className="md:w-[40vw] md:h-60 2xl:w-[45vw] 2xl:h-56 col-span-2 ml-14"
+      className="md:w-[40vw] md:h-60 2xl:w-[45vw] 2xl:h-56 col-span-2 ml-14 md:-mt-12 2xl:mt-15"
     >
       <CarouselContent className="px-1">
         {slides.map((slide, index) => (
@@ -96,8 +96,8 @@ export function CarouselHomepage() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="-mb-10" />
-      <CarouselNext />
+      <CarouselPrevious className="-mb-10 cursor-pointer" />
+      <CarouselNext className="cursor-pointer" />
     </Carousel>
   );
 }

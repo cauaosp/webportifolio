@@ -12,9 +12,8 @@ export const AgeCounter = () => {
     seconds: 0,
   });
 
-  const birthDate = new Date("2003-05-02T18:45:00");
-
   useEffect(() => {
+    const birthDate = new Date("2003-05-02T18:45:00");
     const interval = setInterval(() => {
       const now = new Date();
       const diff = now.getTime() - birthDate.getTime();
@@ -43,7 +42,7 @@ export const AgeCounter = () => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [age, birthDate]);
+  }, [age]);
 
   return (
     <span className="text-emerald-400 font-mono">
