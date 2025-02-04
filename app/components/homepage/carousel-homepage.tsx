@@ -96,8 +96,8 @@ export function CarouselHomepage() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="-mb-10" />
-      <CarouselNext />
+      <CarouselPrevious className="-mb-10 cursor-pointer" />
+      <CarouselNext className="cursor-pointer" />
     </Carousel>
   );
 }
